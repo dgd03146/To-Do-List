@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To DO List</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/170a2c6f7b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="box">
+      <section class="header">
+        <div class="to__do__list">
+          <span class="title">To Do List</span>
+          <i class="fas fa-calendar-week"></i>
+        </div>
+        <span class="date">22 Jun 2021. Tuesday</span>
+      </section>
+      <section class="body">
+        <div class="search">
+          <i class="fas fa-search"></i><span>Search</span>
+        </div>
+        <ul class="category">
+          <li class="undone"><button class="undone__btn">Undone</button></li>
+          <li class="meeting">
+            <button class="meeting__btn">Meetings</button>
+          </li>
+          <li class="consummation">
+            <button class="consummation__btn">Consummation</button>
+          </li>
+        </ul>
+        <div class="task">
+          <ul>
+            <li class="task__content">Protect daily stand-up</li>
+          </ul>
+          <i class="fas fa-trash"></i>
+        </div>
+        <div class="task"></div>
+        <div class="task"></div>
+      </section>
+
+      <input type="text" id="input__task" />
+      <div class="add__task">
+        <i class="fas fa-plus-circle"></i><span>Add new task</span>
+      </div>
+    </div>
+  </body>
+</html>
